@@ -10,7 +10,7 @@
 <body>
     <?php
     if (!empty($_POST["Subscribe to monthly newsletter"])){
-        $toEmail = $_POST["email@company.com"];
+        $toEmail = $_POST["emailcontact"];
         
         if(mail($toEmail)){
             $message ="Pesan sudah tersampaikan";
