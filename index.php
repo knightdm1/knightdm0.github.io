@@ -2,7 +2,7 @@
 
  $to_email = "danima5689dm@gmail.com";
  $subject = "Simple Email Testing via PHP";
- $body = "Hello,nn It is a testing email sent by PHP Script";
+ $body = "ok";
  $headers = "From: sender\'s email";
 
  if (mail($to_email, $subject, $body, $headers)) {
